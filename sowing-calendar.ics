@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Lunar sowing calendar//Christchurch//EN
+PRODID:-//Garden Moon Calendar//christchurch//EN
 X-WR-CALNAME:🌙 Sowing calendar
 X-WR-TIMEZONE:Pacific/Auckland
 BEGIN:VEVENT
@@ -47,25 +47,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥕 Root → 🌸 Flower 10:00 · ascending Moon
+SUMMARY:🥕 Root → 🌸 Flower 08:00 · ascending Moon
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 DTSTAMP:20261004T000000Z
 UID:2026-10-03@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2026-10-0
- 3\n\nRoot (Taurus) 00:00–10:00 → Flower (Gemini) 10:00–24:00\nMoon: 
+ 3\n\nRoot (Taurus) 00:00–08:00 → Flower (Gemini) 08:00–24:00\nMoon: 
  ascending — sowing\, grafting\, harvesting above ground\nAscending Moon 
  (sowing/grafting time) begins ~00:26\n\nSow: sunflowers\, cosmos\, zinnia 
- & nasturtium (direct) (🌸)\, borage & chamomile (🌸)\, dahlia tubers (
- 🌸)\, maincrop potatoes (🥕)\, carrots (🥕)\, beetroot (🥕)\, pars
- nips (🥕)\, radish (🥕)\nFruit trees: graft apples & pears (early Oct)
- \nSoil: Hoeing is fine\; heavy soil work and compost better in planting ti
- me. Hoeing today benefits flower & root crops.
+ & nasturtium (direct)\, borage & chamomile\, dahlia tubers\nFruit trees: g
+ raft apples & pears (early Oct)\nSoil: Hoeing is fine\; heavy soil work an
+ d compost better in planting time. Hoeing today benefits flower crops.
 TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2026-10-03
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥕 Root → 🌸 Flower 10:00 · ascending Moon
+DESCRIPTION:🥕 Root → 🌸 Flower 08:00 · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -481,23 +479,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 19:00 · planting time
+SUMMARY:🌸 Flower → 🥬 Leaf 17:00 · planting time
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 DTSTAMP:20261004T000000Z
 UID:2026-10-23@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2026-10-2
- 3\n\nFlower (Aquarius) 00:00–19:00 → Leaf (Pisces) 19:00–24:00\nMoon
+ 3\n\nFlower (Aquarius) 00:00–17:00 → Leaf (Pisces) 17:00–24:00\nMoon
  : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
- \n\nSow: sunflowers\, cosmos\, zinnia & nasturtium (direct)\, borage & cha
- momile\, dahlia tubers\nFruit trees: thin fruit\nSoil: Good for compost ma
- king/spreading\, cultivation and weeding. Cuttings root well now. Hoeing t
- oday benefits flower crops.
+ \n\nSow: sunflowers\, cosmos\, zinnia & nasturtium (direct) (🌸)\, borag
+ e & chamomile (🌸)\, dahlia tubers (🌸)\, lettuce (🥬)\, silverbeet 
+ (🥬)\, spinach (🥬)\nHarvest: lettuce\, spinach\, asparagus — eat fr
+ esh\; Leaf days are poor for storage\nFruit trees: thin fruit\nSoil: Good 
+ for compost making/spreading\, cultivation and weeding. Cuttings root well
+  now. Hoeing today benefits flower & leaf crops.
 TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2026-10-23
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 19:00 · planting time
+DESCRIPTION:🌸 Flower → 🥬 Leaf 17:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -636,13 +636,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥕 Root → 🌸 Flower 16:00 · ascending Moon
+SUMMARY:🥕 Root → 🌸 Flower 14:00 · ascending Moon
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 DTSTAMP:20261004T000000Z
 UID:2026-10-30@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2026-10-3
- 0\n\nRoot (Taurus) 00:00–16:00 → Flower (Gemini) 16:00–24:00\nMoon: 
+ 0\n\nRoot (Taurus) 00:00–14:00 → Flower (Gemini) 14:00–24:00\nMoon: 
  ascending — sowing\, grafting\, harvesting above ground\nAscending Moon 
  (sowing/grafting time) begins ~06:31\n\nSow: maincrop potatoes (🥕)\, ca
  rrots (🥕)\, beetroot (🥕)\, parsnips (🥕)\, radish (🥕)\, sunflow
@@ -654,7 +654,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2026-10-30
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥕 Root → 🌸 Flower 16:00 · ascending Moon
+DESCRIPTION:🥕 Root → 🌸 Flower 14:00 · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -1084,13 +1084,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 04:00 · planting time
+SUMMARY:🌸 Flower → 🥬 Leaf 03:00 · planting time
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 DTSTAMP:20261004T000000Z
 UID:2026-11-20@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2026-11-2
- 0\n\nFlower (Aquarius) 00:00–04:00 → Leaf (Pisces) 04:00–24:00\nMoon
+ 0\n\nFlower (Aquarius) 00:00–03:00 → Leaf (Pisces) 03:00–24:00\nMoon
  : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
  \n\nSow: lettuce\, summer spinach\nHarvest: lettuce — eat fresh\; Leaf d
  ays are poor for storage\nFruit trees: thin fruit\, net against birds\nSoi
@@ -1100,7 +1100,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2026-11-20
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 04:00 · planting time
+DESCRIPTION:🌸 Flower → 🥬 Leaf 03:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -1126,13 +1126,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥬 Leaf → 🍎 Fruit 23:00 · planting time
+SUMMARY:🥬 Leaf → 🍎 Fruit 22:00 · planting time
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 DTSTAMP:20261004T000000Z
 UID:2026-11-22@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2026-11-2
- 2\n\nLeaf (Pisces) 00:00–23:00 → Fruit (Aries) 23:00–24:00\nMoon: de
+ 2\n\nLeaf (Pisces) 00:00–22:00 → Fruit (Aries) 22:00–24:00\nMoon: de
  scending — PLANTING TIME (transplant\, prune\, compost\, soil work)\n\nS
  ow: lettuce\, summer spinach\nHarvest: lettuce — eat fresh\; Leaf days a
  re poor for storage\nFruit trees: thin fruit\, net against birds\nSoil: Go
@@ -1142,7 +1142,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2026-11-22
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥬 Leaf → 🍎 Fruit 23:00 · planting time
+DESCRIPTION:🥬 Leaf → 🍎 Fruit 22:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -1224,13 +1224,13 @@ DTEND;VALUE=DATE:20261127
 DTSTAMP:20261004T000000Z
 UID:2026-11-26@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2026-11-2
- 6\n\nRoot (Taurus) 00:00–24:00\nMoon: descending — PLANTING TIME (tran
- splant\, prune\, compost\, soil work)\nAscending Moon (sowing/grafting tim
- e) begins ~14:54\n\nFruit trees: thin fruit\, net against birds\nSoil: Goo
- d for compost making/spreading\, cultivation and weeding. Cuttings root we
- ll now.\n⛔ Avoid: 00:00–22:00 perigee (Moon closest to Earth). No sowi
- ng\, planting or grafting then — use it for tool care\, paths and planni
- ng.
+ 6\n\nRoot (Taurus) 00:00–23:00 → Flower (Gemini) 23:00–24:00\nMoon: 
+ descending — PLANTING TIME (transplant\, prune\, compost\, soil work)\nA
+ scending Moon (sowing/grafting time) begins ~14:54\n\nFruit trees: thin fr
+ uit\, net against birds\nSoil: Good for compost making/spreading\, cultiva
+ tion and weeding. Cuttings root well now.\n⛔ Avoid: 00:00–22:00 perige
+ e (Moon closest to Earth). No sowing\, planting or grafting then — use i
+ t for tool care\, paths and planning.
 TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2026-11-26
 BEGIN:VALARM
@@ -1240,22 +1240,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥕 Root → 🌸 Flower 01:00 · ascending Moon
+SUMMARY:🌸 Flower day · ascending Moon
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 DTSTAMP:20261004T000000Z
 UID:2026-11-27@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2026-11-2
- 7\n\nRoot (Taurus) 00:00–01:00 → Flower (Gemini) 01:00–24:00\nMoon: 
- ascending — sowing\, grafting\, harvesting above ground\n\nSow: summer b
- roccoli\, sunflowers\, cosmos & zinnia (direct)\, calendula\, everlasting 
- daisies\nSoil: Hoeing is fine\; heavy soil work and compost better in plan
- ting time. Hoeing today benefits flower crops.
+ 7\n\nFlower (Gemini) 00:00–24:00\nMoon: ascending — sowing\, grafting
+ \, harvesting above ground\n\nSow: summer broccoli\, sunflowers\, cosmos &
+  zinnia (direct)\, calendula\, everlasting daisies\nSoil: Hoeing is fine\;
+  heavy soil work and compost better in planting time. Hoeing today benefit
+ s flower crops.
 TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2026-11-27
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥕 Root → 🌸 Flower 01:00 · ascending Moon
+DESCRIPTION:🌸 Flower day · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -1662,24 +1662,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 13:00 · planting time
+SUMMARY:🌸 Flower → 🥬 Leaf 11:00 · planting time
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 DTSTAMP:20261004T000000Z
 UID:2026-12-17@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2026-12-1
- 7\n\nFlower (Aquarius) 00:00–13:00 → Leaf (Pisces) 13:00–24:00\nMoon
+ 7\n\nFlower (Aquarius) 00:00–11:00 → Leaf (Pisces) 11:00–24:00\nMoon
  : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
- \nFirst Quarter Moon 18:42\n\nSow: calendula (🌸)\, sunflowers (late sow
- ing) (🌸)\, lettuce (succession) (🥬)\nTransplant / plant out: leeks (
+ \nFirst Quarter Moon 18:42\n\nSow: lettuce (succession) (🥬)\, calendula
+  (🌸)\, sunflowers (late sowing) (🌸)\nTransplant / plant out: leeks (
  🥬)\nFruit trees: summer-prune cherries after harvest\nSoil: Good for co
  mpost making/spreading\, cultivation and weeding. Cuttings root well now. 
- Hoeing today benefits flower & leaf crops.
+ Hoeing today benefits leaf & flower crops.
 TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2026-12-17
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 13:00 · planting time
+DESCRIPTION:🌸 Flower → 🥬 Leaf 11:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -1812,13 +1812,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⛔ 🥕 Root → 🌸 Flower 12:00 · ascending Moon
+SUMMARY:⛔ 🥕 Root → 🌸 Flower 10:00 · ascending Moon
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 DTSTAMP:20261004T000000Z
 UID:2026-12-24@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2026-12-2
- 4\n\nRoot (Taurus) 00:00–12:00 → Flower (Gemini) 12:00–24:00\nMoon: 
+ 4\n\nRoot (Taurus) 00:00–10:00 → Flower (Gemini) 10:00–24:00\nMoon: 
  ascending — sowing\, grafting\, harvesting above ground\nAscending Moon 
  (sowing/grafting time) begins ~01:25\nFull Moon 14:28\n\nSow: carrots\, be
  etroot\, late potatoes\nHarvest: new potatoes — good for storage (best o
@@ -1831,7 +1831,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2026-12-24
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⛔ 🥕 Root → 🌸 Flower 12:00 · ascending Moon
+DESCRIPTION:⛔ 🥕 Root → 🌸 Flower 10:00 · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -2247,23 +2247,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 19:00 · planting time
+SUMMARY:🌸 Flower → 🥬 Leaf 17:00 · planting time
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 DTSTAMP:20261004T000000Z
 UID:2027-01-13@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-01-1
- 3\n\nFlower (Aquarius) 00:00–19:00 → Leaf (Pisces) 19:00–24:00\nMoon
+ 3\n\nFlower (Aquarius) 00:00–17:00 → Leaf (Pisces) 17:00–24:00\nMoon
  : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
- \n\nSow: broccoli\, calendula\, sweet William & wallflowers (for next spri
- ng)\nFruit trees: summer-prune stonefruit after harvest (dry weather — s
- ilverleaf)\nSoil: Good for compost making/spreading\, cultivation and weed
- ing. Cuttings root well now. Hoeing today benefits flower crops.
+ \n\nSow: broccoli (🌸)\, calendula (🌸)\, sweet William & wallflowers 
+ (for next spring) (🌸)\, lettuce (🥬)\, mesclun (🥬)\, rocket (🥬)
+ \, spinach (🥬)\, silverbeet (🥬)\, winter cabbage & kale (trays) (
+ 🥬)\nTransplant / plant out: leeks (🥬)\, brassica seedlings (🥬)\nF
+ ruit trees: summer-prune stonefruit after harvest (dry weather — silverl
+ eaf)\nSoil: Good for compost making/spreading\, cultivation and weeding. C
+ uttings root well now. Hoeing today benefits flower & leaf crops.
 TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-01-13
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 19:00 · planting time
+DESCRIPTION:🌸 Flower → 🥬 Leaf 17:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -2405,13 +2408,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥕 Root → 🌸 Flower 23:00 · ascending Moon
+SUMMARY:🥕 Root → 🌸 Flower 22:00 · ascending Moon
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 DTSTAMP:20261004T000000Z
 UID:2027-01-20@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-01-2
- 0\n\nRoot (Taurus) 00:00–23:00 → Flower (Gemini) 23:00–24:00\nMoon: 
+ 0\n\nRoot (Taurus) 00:00–22:00 → Flower (Gemini) 22:00–24:00\nMoon: 
  ascending — sowing\, grafting\, harvesting above ground\nAscending Moon 
  (sowing/grafting time) begins ~12:10\n\nSow: carrot\, beetroot\, radish\nH
  arvest: early potatoes — good for storage (best on descending Moon)\nFru
@@ -2422,7 +2425,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-01-20
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥕 Root → 🌸 Flower 23:00 · ascending Moon
+DESCRIPTION:🥕 Root → 🌸 Flower 22:00 · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -2836,44 +2839,44 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower day · planting time
+SUMMARY:🌸 Flower → 🥬 Leaf 23:00 · planting time
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
 DTSTAMP:20261004T000000Z
 UID:2027-02-09@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-02-0
- 9\n\nFlower (Aquarius) 00:00–24:00\nMoon: descending — PLANTING TIME (
- transplant\, prune\, compost\, soil work)\n\nSow: broccoli\, cauliflower\,
-  calendula\, pansies & violas\, wallflowers\nTransplant / plant out: brocc
- oli\, cauliflower\nFruit trees: light post-harvest pruning\nSoil: Good for
-  compost making/spreading\, cultivation and weeding. Cuttings root well no
- w. Hoeing today benefits flower crops.
+ 9\n\nFlower (Aquarius) 00:00–23:00 → Leaf (Pisces) 23:00–24:00\nMoon
+ : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
+ \n\nSow: broccoli\, cauliflower\, calendula\, pansies & violas\, wallflowe
+ rs\nTransplant / plant out: broccoli\, cauliflower\nFruit trees: light pos
+ t-harvest pruning\nSoil: Good for compost making/spreading\, cultivation a
+ nd weeding. Cuttings root well now. Hoeing today benefits flower crops.
 TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-02-09
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower day · planting time
+DESCRIPTION:🌸 Flower → 🥬 Leaf 23:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 01:00 · planting time
+SUMMARY:🥬 Leaf day · planting time
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
 DTSTAMP:20261004T000000Z
 UID:2027-02-10@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-02-1
- 0\n\nFlower (Aquarius) 00:00–01:00 → Leaf (Pisces) 01:00–24:00\nMoon
- : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
- \n\nSow: lettuce\, spinach\, kale\, Asian greens\nTransplant / plant out: 
- cabbage\, kale\, Brussels sprouts\nFruit trees: light post-harvest pruning
- \nSoil: Good for compost making/spreading\, cultivation and weeding. Cutti
- ngs root well now. Hoeing today benefits leaf crops.
+ 0\n\nLeaf (Pisces) 00:00–24:00\nMoon: descending — PLANTING TIME (tran
+ splant\, prune\, compost\, soil work)\n\nSow: lettuce\, spinach\, kale\, A
+ sian greens\nTransplant / plant out: cabbage\, kale\, Brussels sprouts\nFr
+ uit trees: light post-harvest pruning\nSoil: Good for compost making/sprea
+ ding\, cultivation and weeding. Cuttings root well now. Hoeing today benef
+ its leaf crops.
 TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-02-10
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 01:00 · planting time
+DESCRIPTION:🥬 Leaf day · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -3005,13 +3008,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥕 Root → 🌸 Flower 08:00 · ascending Moon
+SUMMARY:🥕 Root → 🌸 Flower 07:00 · ascending Moon
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 DTSTAMP:20261004T000000Z
 UID:2027-02-17@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-02-1
- 7\n\nRoot (Taurus) 00:00–08:00 → Flower (Gemini) 08:00–24:00\nMoon: 
+ 7\n\nRoot (Taurus) 00:00–07:00 → Flower (Gemini) 07:00–24:00\nMoon: 
  ascending — sowing\, grafting\, harvesting above ground\n\nSow: broccoli
  \, cauliflower\, calendula\, pansies & violas\, wallflowers\nFruit trees: 
  budding stonefruit continues\, pick stonefruit\nSoil: Hoeing is fine\; hea
@@ -3021,7 +3024,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-02-17
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥕 Root → 🌸 Flower 08:00 · ascending Moon
+DESCRIPTION:🥕 Root → 🌸 Flower 07:00 · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -3425,13 +3428,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 07:00 · planting time
+SUMMARY:🌸 Flower → 🥬 Leaf 05:00 · planting time
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 DTSTAMP:20261004T000000Z
 UID:2027-03-09@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-03-0
- 9\n\nFlower (Aquarius) 00:00–07:00 → Leaf (Pisces) 07:00–24:00\nMoon
+ 9\n\nFlower (Aquarius) 00:00–05:00 → Leaf (Pisces) 05:00–24:00\nMoon
  : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
  \n\nSow: cabbage\, kale\, spinach\, lettuce\, mizuna\nTransplant / plant o
  ut: brassica seedlings\, leeks\nSoil: Good for compost making/spreading\, 
@@ -3441,7 +3444,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-03-09
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 07:00 · planting time
+DESCRIPTION:🌸 Flower → 🥬 Leaf 05:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -3568,13 +3571,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥕 Root → 🌸 Flower 15:00 · ascending Moon
+SUMMARY:🥕 Root → 🌸 Flower 13:00 · ascending Moon
 DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270317
 DTSTAMP:20261004T000000Z
 UID:2027-03-16@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-03-1
- 6\n\nRoot (Taurus) 00:00–15:00 → Flower (Gemini) 15:00–24:00\nMoon: 
+ 6\n\nRoot (Taurus) 00:00–13:00 → Flower (Gemini) 13:00–24:00\nMoon: 
  ascending — sowing\, grafting\, harvesting above ground\nAscending Moon 
  (sowing/grafting time) begins ~03:14\nFirst Quarter Moon 05:25\n\nSow: car
  rot (🥕)\, radish (🥕)\, turnip (🥕)\, spring bulbs (daffodils\, tul
@@ -3587,7 +3590,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-03-16
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥕 Root → 🌸 Flower 15:00 · ascending Moon
+DESCRIPTION:🥕 Root → 🌸 Flower 13:00 · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -4003,25 +4006,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 14:00 · planting time
+SUMMARY:🌸 Flower → 🥬 Leaf 12:00 · planting time
 DTSTART;VALUE=DATE:20270405
 DTEND;VALUE=DATE:20270406
 DTSTAMP:20261004T000000Z
 UID:2027-04-05@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-04-0
- 5\n\nFlower (Aquarius) 00:00–14:00 → Leaf (Pisces) 14:00–24:00\nMoon
+ 5\n\nFlower (Aquarius) 00:00–12:00 → Leaf (Pisces) 12:00–24:00\nMoon
  : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
- \n\nSow: spring bulbs (🌸)\, sweet peas (🌸)\, poppies (🌸)\, spinac
- h & lettuce under cover (🥬)\, green manure crops (🥬)\nTransplant / p
- lant out: winter brassicas (🥬)\, spring cabbage (🥬)\nFruit trees: pr
- epare planting holes for winter\nSoil: Good for compost making/spreading\,
-  cultivation and weeding. Cuttings root well now. Hoeing today benefits fl
- ower & leaf crops.
+ \n\nSow: spinach & lettuce under cover (🥬)\, green manure crops (🥬)
+ \, spring bulbs (🌸)\, sweet peas (🌸)\, poppies (🌸)\nTransplant / 
+ plant out: winter brassicas (🥬)\, spring cabbage (🥬)\nFruit trees: p
+ repare planting holes for winter\nSoil: Good for compost making/spreading
+ \, cultivation and weeding. Cuttings root well now. Hoeing today benefits 
+ leaf & flower crops.
 TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-04-05
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 14:00 · planting time
+DESCRIPTION:🌸 Flower → 🥬 Leaf 12:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -4068,13 +4071,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥬 Leaf → 🍎 Fruit 11:00 · planting time
+SUMMARY:🥬 Leaf → 🍎 Fruit 10:00 · planting time
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270409
 DTSTAMP:20261004T000000Z
 UID:2027-04-08@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-04-0
- 8\n\nLeaf (Pisces) 00:00–11:00 → Fruit (Aries) 11:00–24:00\nMoon: de
+ 8\n\nLeaf (Pisces) 00:00–10:00 → Fruit (Aries) 10:00–24:00\nMoon: de
  scending — PLANTING TIME (transplant\, prune\, compost\, soil work)\n\nS
  ow: broad beans (🍎)\, spinach & lettuce under cover (🥬)\, green manu
  re crops (🥬)\nTransplant / plant out: winter brassicas (🥬)\, spring 
@@ -4087,7 +4090,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-04-08
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥬 Leaf → 🍎 Fruit 11:00 · planting time
+DESCRIPTION:🥬 Leaf → 🍎 Fruit 10:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -4154,13 +4157,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥕 Root → 🌸 Flower 19:00 · ascending Moon
+SUMMARY:🥕 Root → 🌸 Flower 18:00 · ascending Moon
 DTSTART;VALUE=DATE:20270412
 DTEND;VALUE=DATE:20270413
 DTSTAMP:20261004T000000Z
 UID:2027-04-12@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-04-1
- 2\n\nRoot (Taurus) 00:00–19:00 → Flower (Gemini) 19:00–24:00\nMoon: 
+ 2\n\nRoot (Taurus) 00:00–18:00 → Flower (Gemini) 18:00–24:00\nMoon: 
  ascending — sowing\, grafting\, harvesting above ground\nAscending Moon 
  (sowing/grafting time) begins ~07:25\n\nSow: garlic\, shallots\nHarvest: c
  arrots\, parsnips — good for storage (best on descending Moon)\nFruit tr
@@ -4170,7 +4173,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-04-12
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥕 Root → 🌸 Flower 19:00 · ascending Moon
+DESCRIPTION:🥕 Root → 🌸 Flower 18:00 · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -4576,13 +4579,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 23:00 · planting time
+SUMMARY:🌸 Flower → 🥬 Leaf 21:00 · planting time
 DTSTART;VALUE=DATE:20270502
 DTEND;VALUE=DATE:20270503
 DTSTAMP:20261004T000000Z
 UID:2027-05-02@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-05-0
- 2\n\nFlower (Aquarius) 00:00–23:00 → Leaf (Pisces) 23:00–24:00\nMoon
+ 2\n\nFlower (Aquarius) 00:00–21:00 → Leaf (Pisces) 21:00–24:00\nMoon
  : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
  \n\nSow: tulips & late bulbs\, sweet peas\nFruit trees: plant new trees as
   available\, copper spray for leaf curl\nSoil: Good for compost making/spr
@@ -4592,7 +4595,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-05-02
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 23:00 · planting time
+DESCRIPTION:🌸 Flower → 🥬 Leaf 21:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -4639,13 +4642,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥬 Leaf → 🍎 Fruit 20:00 · planting time
+SUMMARY:🥬 Leaf → 🍎 Fruit 19:00 · planting time
 DTSTART;VALUE=DATE:20270505
 DTEND;VALUE=DATE:20270506
 DTSTAMP:20261004T000000Z
 UID:2027-05-05@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-05-0
- 5\n\nLeaf (Pisces) 00:00–20:00 → Fruit (Aries) 20:00–24:00\nMoon: de
+ 5\n\nLeaf (Pisces) 00:00–19:00 → Fruit (Aries) 19:00–24:00\nMoon: de
  scending — PLANTING TIME (transplant\, prune\, compost\, soil work)\n\nH
  arvest: leeks\, cabbage\, kale\, silverbeet — eat fresh\; Leaf days are 
  poor for storage\nFruit trees: plant new trees as available\, copper spray
@@ -4655,7 +4658,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-05-05
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥬 Leaf → 🍎 Fruit 20:00 · planting time
+DESCRIPTION:🥬 Leaf → 🍎 Fruit 19:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -4756,11 +4759,11 @@ DTEND;VALUE=DATE:20270511
 DTSTAMP:20261004T000000Z
 UID:2027-05-10@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-05-1
- 0\n\nRoot (Taurus) 00:00–02:00 → Flower (Gemini) 02:00–24:00\nMoon: 
- ascending — sowing\, grafting\, harvesting above ground\n\nSoil: Hoeing 
- is fine\; heavy soil work and compost better in planting time.\n⛔ Avoid:
-  00:00–20:00 perigee (Moon closest to Earth). No sowing\, planting or gr
- afting then — use it for tool care\, paths and planning.
+ 0\n\nFlower (Gemini) 00:00–24:00\nMoon: ascending — sowing\, grafting
+ \, harvesting above ground\n\nSoil: Hoeing is fine\; heavy soil work and c
+ ompost better in planting time.\n⛔ Avoid: 00:00–20:00 perigee (Moon cl
+ osest to Earth). No sowing\, planting or grafting then — use it for tool
+  care\, paths and planning.
 TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-05-10
 BEGIN:VALARM
@@ -5162,13 +5165,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 07:00 · planting time
+SUMMARY:🌸 Flower → 🥬 Leaf 06:00 · planting time
 DTSTART;VALUE=DATE:20270530
 DTEND;VALUE=DATE:20270531
 DTSTAMP:20261004T000000Z
 UID:2027-05-30@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-05-3
- 0\n\nFlower (Aquarius) 00:00–07:00 → Leaf (Pisces) 07:00–24:00\nMoon
+ 0\n\nFlower (Aquarius) 00:00–06:00 → Leaf (Pisces) 06:00–24:00\nMoon
  : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
  \n\nHarvest: leeks\, cabbage\, kale\, silverbeet — eat fresh\; Leaf days
   are poor for storage\nFruit trees: plant new trees as available\, copper 
@@ -5178,7 +5181,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-05-30
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 07:00 · planting time
+DESCRIPTION:🌸 Flower → 🥬 Leaf 06:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -5310,13 +5313,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⛔ 🥕 Root → 🌸 Flower 10:00 · ascending Moon
+SUMMARY:⛔ 🥕 Root → 🌸 Flower 09:00 · ascending Moon
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 DTSTAMP:20261004T000000Z
 UID:2027-06-06@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-06-0
- 6\n\nRoot (Taurus) 00:00–10:00 → Flower (Gemini) 10:00–24:00\nMoon: 
+ 6\n\nRoot (Taurus) 00:00–09:00 → Flower (Gemini) 09:00–24:00\nMoon: 
  ascending — sowing\, grafting\, harvesting above ground\n\nSow: sweet pe
  as (sheltered) (🌸)\, garlic (🥕)\, onion seed (trays) (🥕)\nHarvest
  : parsnips — good for storage (best on descending Moon)\nFruit trees: co
@@ -5328,7 +5331,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-06-06
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⛔ 🥕 Root → 🌸 Flower 10:00 · ascending Moon
+DESCRIPTION:⛔ 🥕 Root → 🌸 Flower 09:00 · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -5729,13 +5732,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 15:00 · planting time
+SUMMARY:🌸 Flower → 🥬 Leaf 13:00 · planting time
 DTSTART;VALUE=DATE:20270626
 DTEND;VALUE=DATE:20270627
 DTSTAMP:20261004T000000Z
 UID:2027-06-26@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-06-2
- 6\n\nFlower (Aquarius) 00:00–15:00 → Leaf (Pisces) 15:00–24:00\nMoon
+ 6\n\nFlower (Aquarius) 00:00–13:00 → Leaf (Pisces) 13:00–24:00\nMoon
  : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
  \n\nSow: sweet peas (sheltered) (🌸)\nHarvest: kale\, leeks\, silverbeet
   — eat fresh\; Leaf days are poor for storage\nFruit trees: plant bare-r
@@ -5746,7 +5749,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-06-26
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 15:00 · planting time
+DESCRIPTION:🌸 Flower → 🥬 Leaf 13:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -5877,13 +5880,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥕 Root → 🌸 Flower 21:00 · ascending Moon
+SUMMARY:🥕 Root → 🌸 Flower 19:00 · ascending Moon
 DTSTART;VALUE=DATE:20270703
 DTEND;VALUE=DATE:20270704
 DTSTAMP:20261004T000000Z
 UID:2027-07-03@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-07-0
- 3\n\nRoot (Taurus) 00:00–21:00 → Flower (Gemini) 21:00–24:00\nMoon: 
+ 3\n\nRoot (Taurus) 00:00–19:00 → Flower (Gemini) 19:00–24:00\nMoon: 
  ascending — sowing\, grafting\, harvesting above ground\nAscending Moon 
  (sowing/grafting time) begins ~07:44\n\nSow: garlic\, overwintering onions
   (cloches)\, chit seed potatoes\nFruit trees: collect scion wood\, graft c
@@ -5893,7 +5896,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-07-03
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥕 Root → 🌸 Flower 21:00 · ascending Moon
+DESCRIPTION:🥕 Root → 🌸 Flower 19:00 · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -6302,13 +6305,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 21:00 · planting time
+SUMMARY:🌸 Flower → 🥬 Leaf 20:00 · planting time
 DTSTART;VALUE=DATE:20270723
 DTEND;VALUE=DATE:20270724
 DTSTAMP:20261004T000000Z
 UID:2027-07-23@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-07-2
- 3\n\nFlower (Aquarius) 00:00–21:00 → Leaf (Pisces) 21:00–24:00\nMoon
+ 3\n\nFlower (Aquarius) 00:00–20:00 → Leaf (Pisces) 20:00–24:00\nMoon
  : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
  \n\nSow: sweet peas\, summer annuals in trays (indoors)\nFruit trees: plan
  t bare-root trees\, finish winter pruning\, dormant copper/oil spray\nSoil
@@ -6318,7 +6321,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-07-23
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 21:00 · planting time
+DESCRIPTION:🌸 Flower → 🥬 Leaf 20:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -6473,13 +6476,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥕 Root → 🌸 Flower 07:00 · ascending Moon
+SUMMARY:🥕 Root → 🌸 Flower 06:00 · ascending Moon
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270801
 DTSTAMP:20261004T000000Z
 UID:2027-07-31@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-07-3
- 1\n\nRoot (Taurus) 00:00–07:00 → Flower (Gemini) 07:00–24:00\nMoon: 
+ 1\n\nRoot (Taurus) 00:00–06:00 → Flower (Gemini) 06:00–24:00\nMoon: 
  ascending — sowing\, grafting\, harvesting above ground\n\nSow: sweet pe
  as\, summer annuals in trays (indoors)\nFruit trees: collect scion wood\, 
  graft cherries & plums\nSoil: Hoeing is fine\; heavy soil work and compost
@@ -6488,7 +6491,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-07-31
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥕 Root → 🌸 Flower 07:00 · ascending Moon
+DESCRIPTION:🥕 Root → 🌸 Flower 06:00 · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -6896,13 +6899,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 03:00 · planting time
+SUMMARY:🌸 Flower → 🥬 Leaf 02:00 · planting time
 DTSTART;VALUE=DATE:20270820
 DTEND;VALUE=DATE:20270821
 DTSTAMP:20261004T000000Z
 UID:2027-08-20@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-08-2
- 0\n\nFlower (Aquarius) 00:00–03:00 → Leaf (Pisces) 03:00–24:00\nMoon
+ 0\n\nFlower (Aquarius) 00:00–02:00 → Leaf (Pisces) 02:00–24:00\nMoon
  : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
  \n\nHarvest: brassicas\, leeks — eat fresh\; Leaf days are poor for stor
  age\nFruit trees: last bare-root planting\nSoil: Good for compost making/s
@@ -6912,7 +6915,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-08-20
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 03:00 · planting time
+DESCRIPTION:🌸 Flower → 🥬 Leaf 02:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -7039,13 +7042,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥕 Root → 🌸 Flower 16:00 · ascending Moon
+SUMMARY:🥕 Root → 🌸 Flower 15:00 · ascending Moon
 DTSTART;VALUE=DATE:20270827
 DTEND;VALUE=DATE:20270828
 DTSTAMP:20261004T000000Z
 UID:2027-08-27@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-08-2
- 7\n\nRoot (Taurus) 00:00–16:00 → Flower (Gemini) 16:00–24:00\nMoon: 
+ 7\n\nRoot (Taurus) 00:00–15:00 → Flower (Gemini) 15:00–24:00\nMoon: 
  ascending — sowing\, grafting\, harvesting above ground\nAscending Moon 
  (sowing/grafting time) begins ~02:15\n\nSow: onions & leeks (trays) (🥕)
  \, early potatoes (sheltered spots) (🥕)\, sweet peas (🌸)\, cosmos\, 
@@ -7057,7 +7060,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-08-27
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥕 Root → 🌸 Flower 16:00 · ascending Moon
+DESCRIPTION:🥕 Root → 🌸 Flower 15:00 · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -7465,26 +7468,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 09:00 · planting time
+SUMMARY:🌸 Flower → 🥬 Leaf 08:00 · planting time
 DTSTART;VALUE=DATE:20270916
 DTEND;VALUE=DATE:20270917
 DTSTAMP:20261004T000000Z
 UID:2027-09-16@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-09-1
- 6\n\nFlower (Aquarius) 00:00–09:00 → Leaf (Pisces) 09:00–24:00\nMoon
+ 6\n\nFlower (Aquarius) 00:00–08:00 → Leaf (Pisces) 08:00–24:00\nMoon
  : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
- \nFull Moon 11:03\n\nSow: lettuce (🥬)\, spinach (🥬)\, silverbeet (
- 🥬)\, broccoli (🌸)\, cosmos\, zinnia\, sunflowers & marigold in trays
-  (🌸)\, borage & chamomile (🌸)\, dahlia tubers (late Sept) (🌸)\nTr
- ansplant / plant out: lettuce (🥬)\, brassica seedlings (🥬)\nHarvest:
-  last winter brassicas\, asparagus — eat fresh\; Leaf days are poor for 
- storage\nSoil: Good for compost making/spreading\, cultivation and weeding
- . Cuttings root well now. Hoeing today benefits leaf & flower crops.
+ \nFull Moon 11:03\n\nSow: lettuce\, spinach\, silverbeet\nTransplant / pla
+ nt out: lettuce\, brassica seedlings\nHarvest: last winter brassicas\, asp
+ aragus — eat fresh\; Leaf days are poor for storage\nSoil: Good for comp
+ ost making/spreading\, cultivation and weeding. Cuttings root well now. Ho
+ eing today benefits leaf crops.
 TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-09-16
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 09:00 · planting time
+DESCRIPTION:🌸 Flower → 🥬 Leaf 08:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -7531,13 +7532,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥬 Leaf → 🍎 Fruit 10:00 · planting time
+SUMMARY:🥬 Leaf → 🍎 Fruit 09:00 · planting time
 DTSTART;VALUE=DATE:20270919
 DTEND;VALUE=DATE:20270920
 DTSTAMP:20261004T000000Z
 UID:2027-09-19@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-09-1
- 9\n\nLeaf (Pisces) 00:00–10:00 → Fruit (Aries) 10:00–24:00\nMoon: de
+ 9\n\nLeaf (Pisces) 00:00–09:00 → Fruit (Aries) 09:00–24:00\nMoon: de
  scending — PLANTING TIME (transplant\, prune\, compost\, soil work)\n\nS
  ow: peas (🍎)\, broad beans (🍎)\, tomatoes\, cucurbits\, beans (indoo
  rs) (🍎)\, lettuce (🥬)\, spinach (🥬)\, silverbeet (🥬)\nTranspla
@@ -7549,7 +7550,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-09-19
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥬 Leaf → 🍎 Fruit 10:00 · planting time
+DESCRIPTION:🥬 Leaf → 🍎 Fruit 09:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -7615,13 +7616,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥕 Root → 🌸 Flower 23:00 · ascending Moon
+SUMMARY:🥕 Root → 🌸 Flower 21:00 · ascending Moon
 DTSTART;VALUE=DATE:20270923
 DTEND;VALUE=DATE:20270924
 DTSTAMP:20261004T000000Z
 UID:2027-09-23@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-09-2
- 3\n\nRoot (Taurus) 00:00–23:00 → Flower (Gemini) 23:00–24:00\nMoon: 
+ 3\n\nRoot (Taurus) 00:00–21:00 → Flower (Gemini) 21:00–24:00\nMoon: 
  ascending — sowing\, grafting\, harvesting above ground\nAscending Moon 
  (sowing/grafting time) begins ~08:36\nLast Quarter Moon 22:20\n\nSow: carr
  ots\, beetroot\, parsnip\, radish\, potatoes (late Sept)\nFruit trees: gra
@@ -7631,7 +7632,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-09-23
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥕 Root → 🌸 Flower 23:00 · ascending Moon
+DESCRIPTION:🥕 Root → 🌸 Flower 21:00 · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -8050,23 +8051,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 18:00 · planting time
+SUMMARY:🌸 Flower → 🥬 Leaf 16:00 · planting time
 DTSTART;VALUE=DATE:20271013
 DTEND;VALUE=DATE:20271014
 DTSTAMP:20261004T000000Z
 UID:2027-10-13@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-10-1
- 3\n\nFlower (Aquarius) 00:00–18:00 → Leaf (Pisces) 18:00–24:00\nMoon
+ 3\n\nFlower (Aquarius) 00:00–16:00 → Leaf (Pisces) 16:00–24:00\nMoon
  : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
- \n\nSow: sunflowers\, cosmos\, zinnia & nasturtium (direct)\, borage & cha
- momile\, dahlia tubers\nFruit trees: thin fruit\nSoil: Good for compost ma
- king/spreading\, cultivation and weeding. Cuttings root well now. Hoeing t
- oday benefits flower crops.
+ \n\nSow: sunflowers\, cosmos\, zinnia & nasturtium (direct) (🌸)\, borag
+ e & chamomile (🌸)\, dahlia tubers (🌸)\, lettuce (🥬)\, silverbeet 
+ (🥬)\, spinach (🥬)\nHarvest: lettuce\, spinach\, asparagus — eat fr
+ esh\; Leaf days are poor for storage\nFruit trees: thin fruit\nSoil: Good 
+ for compost making/spreading\, cultivation and weeding. Cuttings root well
+  now. Hoeing today benefits flower & leaf crops.
 TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-10-13
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 18:00 · planting time
+DESCRIPTION:🌸 Flower → 🥬 Leaf 16:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -8228,13 +8231,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥕 Root → 🌸 Flower 05:00 · ascending Moon
+SUMMARY:🥕 Root → 🌸 Flower 04:00 · ascending Moon
 DTSTART;VALUE=DATE:20271021
 DTEND;VALUE=DATE:20271022
 DTSTAMP:20261004T000000Z
 UID:2027-10-21@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-10-2
- 1\n\nRoot (Taurus) 00:00–05:00 → Flower (Gemini) 05:00–24:00\nMoon: 
+ 1\n\nRoot (Taurus) 00:00–04:00 → Flower (Gemini) 04:00–24:00\nMoon: 
  ascending — sowing\, grafting\, harvesting above ground\n\nSow: sunflowe
  rs\, cosmos\, zinnia & nasturtium (direct)\, borage & chamomile\, dahlia t
  ubers\nFruit trees: graft apples & pears (early Oct)\nSoil: Hoeing is fine
@@ -8244,7 +8247,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-10-21
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥕 Root → 🌸 Flower 05:00 · ascending Moon
+DESCRIPTION:🥕 Root → 🌸 Flower 04:00 · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -8661,23 +8664,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 02:00 · planting time
+SUMMARY:🥬 Leaf day · planting time
 DTSTART;VALUE=DATE:20271110
 DTEND;VALUE=DATE:20271111
 DTSTAMP:20261004T000000Z
 UID:2027-11-10@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-11-1
- 0\n\nFlower (Aquarius) 00:00–02:00 → Leaf (Pisces) 02:00–24:00\nMoon
- : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
- \n\nSow: lettuce\, summer spinach\nHarvest: lettuce — eat fresh\; Leaf d
- ays are poor for storage\nFruit trees: thin fruit\, net against birds\nSoi
- l: Good for compost making/spreading\, cultivation and weeding. Cuttings r
- oot well now. Hoeing today benefits leaf crops.
+ 0\n\nLeaf (Pisces) 00:00–24:00\nMoon: descending — PLANTING TIME (tran
+ splant\, prune\, compost\, soil work)\n\nSow: lettuce\, summer spinach\nHa
+ rvest: lettuce — eat fresh\; Leaf days are poor for storage\nFruit trees
+ : thin fruit\, net against birds\nSoil: Good for compost making/spreading
+ \, cultivation and weeding. Cuttings root well now. Hoeing today benefits 
+ leaf crops.
 TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-11-10
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 02:00 · planting time
+DESCRIPTION:🥬 Leaf day · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -8724,13 +8727,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥬 Leaf → 🍎 Fruit 02:00 · planting time
+SUMMARY:🥬 Leaf → 🍎 Fruit 01:00 · planting time
 DTSTART;VALUE=DATE:20271113
 DTEND;VALUE=DATE:20271114
 DTSTAMP:20261004T000000Z
 UID:2027-11-13@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-11-1
- 3\n\nLeaf (Pisces) 00:00–02:00 → Fruit (Aries) 02:00–24:00\nMoon: de
+ 3\n\nLeaf (Pisces) 00:00–01:00 → Fruit (Aries) 01:00–24:00\nMoon: de
  scending — PLANTING TIME (transplant\, prune\, compost\, soil work)\n\nS
  ow: beans\, sweetcorn\, pumpkins & squash\, courgettes\, cucumbers\nTransp
  lant / plant out: tomatoes\, peppers\, cucurbits\, sweetcorn\nHarvest: pea
@@ -8742,7 +8745,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-11-13
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥬 Leaf → 🍎 Fruit 02:00 · planting time
+DESCRIPTION:🥬 Leaf → 🍎 Fruit 01:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -8811,13 +8814,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥕 Root → 🌸 Flower 11:00 · ascending Moon
+SUMMARY:🥕 Root → 🌸 Flower 10:00 · ascending Moon
 DTSTART;VALUE=DATE:20271117
 DTEND;VALUE=DATE:20271118
 DTSTAMP:20261004T000000Z
 UID:2027-11-17@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-11-1
- 7\n\nRoot (Taurus) 00:00–11:00 → Flower (Gemini) 11:00–24:00\nMoon: 
+ 7\n\nRoot (Taurus) 00:00–10:00 → Flower (Gemini) 10:00–24:00\nMoon: 
  ascending — sowing\, grafting\, harvesting above ground\n\nSow: summer b
  roccoli (🌸)\, sunflowers\, cosmos & zinnia (direct) (🌸)\, calendula 
  (🌸)\, everlasting daisies (🌸)\, carrots (🥕)\, beetroot (🥕)\nHa
@@ -8828,7 +8831,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-11-17
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥕 Root → 🌸 Flower 11:00 · ascending Moon
+DESCRIPTION:🥕 Root → 🌸 Flower 10:00 · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -9235,13 +9238,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🌸 Flower → 🥬 Leaf 11:00 · planting time
+SUMMARY:🌸 Flower → 🥬 Leaf 09:00 · planting time
 DTSTART;VALUE=DATE:20271207
 DTEND;VALUE=DATE:20271208
 DTSTAMP:20261004T000000Z
 UID:2027-12-07@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-12-0
- 7\n\nFlower (Aquarius) 00:00–11:00 → Leaf (Pisces) 11:00–24:00\nMoon
+ 7\n\nFlower (Aquarius) 00:00–09:00 → Leaf (Pisces) 09:00–24:00\nMoon
  : descending — PLANTING TIME (transplant\, prune\, compost\, soil work)
  \n\nSow: lettuce (succession) (🥬)\, calendula (🌸)\, sunflowers (late
   sowing) (🌸)\nTransplant / plant out: leeks (🥬)\nFruit trees: summer
@@ -9252,7 +9255,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-12-07
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌸 Flower → 🥬 Leaf 11:00 · planting time
+DESCRIPTION:🌸 Flower → 🥬 Leaf 09:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
@@ -9385,13 +9388,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥕 Root → 🌸 Flower 20:00 · ascending Moon
+SUMMARY:🥕 Root → 🌸 Flower 19:00 · ascending Moon
 DTSTART;VALUE=DATE:20271214
 DTEND;VALUE=DATE:20271215
 DTSTAMP:20261004T000000Z
 UID:2027-12-14@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-12-1
- 4\n\nRoot (Taurus) 00:00–20:00 → Flower (Gemini) 20:00–24:00\nMoon: 
+ 4\n\nRoot (Taurus) 00:00–19:00 → Flower (Gemini) 19:00–24:00\nMoon: 
  ascending — sowing\, grafting\, harvesting above ground\nAscending Moon 
  (sowing/grafting time) begins ~04:57\nFull Moon 05:08\n\nSow: carrots\, be
  etroot\, late potatoes\nHarvest: new potatoes — good for storage (best o
@@ -9402,7 +9405,7 @@ TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-12-14
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥕 Root → 🌸 Flower 20:00 · ascending Moon
+DESCRIPTION:🥕 Root → 🌸 Flower 19:00 · ascending Moon
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
