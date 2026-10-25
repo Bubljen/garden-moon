@@ -2408,24 +2408,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🥕 Root → 🌸 Flower 22:00 · ascending Moon
+SUMMARY:🥕 Root → 🌸 Flower 22:00 · planting time
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 DTSTAMP:20261004T000000Z
 UID:2027-01-20@lunar-sowing-calendar
 DESCRIPTION:Full details: https://bubljen.github.io/garden-moon/#2027-01-2
  0\n\nRoot (Taurus) 00:00–22:00 → Flower (Gemini) 22:00–24:00\nMoon: 
- ascending — sowing\, grafting\, harvesting above ground\nAscending Moon 
- (sowing/grafting time) begins ~12:10\n\nSow: carrot\, beetroot\, radish\nH
- arvest: early potatoes — good for storage (best on descending Moon)\nFru
- it trees: bud-graft stonefruit\, pick stonefruit & berries\nSoil: Hoeing i
- s fine\; heavy soil work and compost better in planting time. Hoeing today
-  benefits root crops.
+ descending — PLANTING TIME (transplant\, prune\, compost\, soil work)\nA
+ scending Moon (sowing/grafting time) begins ~12:10\n\nSow: carrot\, beetro
+ ot\, radish\nHarvest: early potatoes — good for storage\nFruit trees: su
+ mmer-prune stonefruit after harvest (dry weather — silverleaf)\nSoil: Go
+ od for compost making/spreading\, cultivation and weeding. Cuttings root w
+ ell now. Hoeing today benefits root crops.
 TRANSP:TRANSPARENT
 URL:https://bubljen.github.io/garden-moon/#2027-01-20
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🥕 Root → 🌸 Flower 22:00 · ascending Moon
+DESCRIPTION:🥕 Root → 🌸 Flower 22:00 · planting time
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT

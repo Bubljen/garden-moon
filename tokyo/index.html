@@ -69,6 +69,7 @@ button:focus-visible,.cell:focus-visible{outline:2px solid var(--ink);outline-of
 .bar{position:relative;height:8px;border-radius:2px;overflow:hidden;display:flex;background:var(--rule)}
 .bar i{display:block;height:100%}
 .bar b{position:absolute;top:2px;bottom:2px;background:var(--avoid);border-radius:1px}
+.ls{display:none}
 .lbl{font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
 .c-root{color:var(--root)} .c-leaf{color:var(--leaf)} .c-flower{color:var(--flower)} .c-fruit{color:var(--fruit)} .c-avoid{color:var(--avoid)}
 .bg-root{background:var(--root)} .bg-leaf{background:var(--leaf)} .bg-flower{background:var(--flower)} .bg-fruit{background:var(--fruit)}
@@ -78,7 +79,8 @@ button:focus-visible,.cell:focus-visible{outline:2px solid var(--ink);outline-of
 .pt{margin-top:auto;font-size:10px;color:var(--muted);letter-spacing:.04em}
 @media (max-width:560px){
   .cell{min-height:64px;padding:5px 4px}
-  .extra,.pt,.cell .con{display:none}
+  .extra,.pt,.cell .con,.lf{display:none}
+  .ls{display:inline}
   .lbl{font-size:9.5px;letter-spacing:.02em}
   .num{font-size:15px}
   .today .num::after{content:none}
@@ -287,7 +289,7 @@ function renderMonth(){
       aria-label="${fmt(UI.date_long,{d:n,m,M:MONTHS[m-1],y,w:""})}: ${d.main==="avoid"?UI.rest_label:T[d.main]}">
       <span class="top"><span class="num">${n}</span><span class="marks">${phase}<span>${d.direction==="descending"?"▼":"▲"}</span></span></span>
       ${barHTML(d)}
-      <span class="lbl c-${d.main}">${typeName(d.main)} <span class="con" style="font-weight:400;letter-spacing:0;text-transform:none;color:var(--muted)">${UI.con[con]||con}</span></span>
+      <span class="lbl c-${d.main}"><span class="lf">${typeName(d.main)}</span><span class="ls">${(UI.type_short||{})[d.main] || typeName(d.main)}</span> <span class="con" style="font-weight:400;letter-spacing:0;text-transform:none;color:var(--muted)">${UI.con[con]||con}</span></span>
       <span class="extra">${extras(d)}</span>
       ${d.direction==="descending"?`<span class="pt">${UI.planting_time}</span>`:""}
     </button>`;
@@ -306,7 +308,7 @@ function renderPanel(){
   const wd = UI.dow[(dt.getUTCDay()+6)%7];
   const when = selected===today ? UI.when_today : selected===tomorrow ? UI.when_tomorrow : wd;
   const heading = d.main==="avoid" ? UI.rest_heading
-    : fmt(UI.day_heading,{t:T[d.main]}) + (UI.type_en ? `<span class="en">${UI.type_en_names[d.main]}</span>` : "") + (d.segments.length>1 ? UI.with_changes : "");
+    : fmt(UI.day_heading,{t:(UI.type_acc||T)[d.main]}) + (UI.type_en ? `<span class="en">${UI.type_en_names[d.main]}</span>` : "") + (d.segments.length>1 ? UI.with_changes : "");
   const segs = d.segments.map(s => `<div><span class="time">${s.start}–${s.end}</span><span class="c-${s.type}"><strong>${typeName(s.type)}</strong></span><span style="color:var(--muted)">${UI.con[s.constellation]||s.constellation} · ${UI.element[s.type]}</span></div>`).join("");
   const warn = d.avoid.length ? `<div class="warn"><strong>${UI.avoid_label}</strong> ${d.avoid.map(w=>`${w.start}–${w.end}: ${esc(w.reason)}`).join("; ")}${UI.avoid_tail}</div>` : "";
   const dir = `<span class="chip">${d.direction==="descending" ? UI.chip_desc : UI.chip_asc}</span>`;
